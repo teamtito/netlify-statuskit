@@ -11,7 +11,7 @@
 
 <html lang="{{.Site.LanguageCode}}">
   <head>
-    <title>{{ $title }}</title>
+    <title>Tito | Status Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/main.css"/>
     {{ if $major }}
@@ -26,15 +26,12 @@
     <div class="gangsta-wrap">
       <div class="header">
         <div>
-          <img src="{{ $logo }}" alt="logo" class="logo"/>
-          <span class="title"><a href="/">{{ $title }}</a></span>
+          <img src="https://ti.to/jscss/tito.svg" alt="logo" class="logo"/>
+          <span class="title"><a href="/">Status Page</a></span>
         </div>
         <div class="right-links">
-          {{ with $resources }}
-            <a href="{{ . }}" class="button resources-link">Resources</a>
-          {{ end }}
-          {{ with $contact }}
-            <a href="{{ . }}" class="button contact-link">Contact</a>
-          {{ end }}
+            <a href="https://twitter.com/usetito" class="button contact-link">Twitter</a>
+            <a href="mailto:support@tito.io" class="button resources-link">Contact Us</a>
+            <a href="https://ti.to/signin" class="button resources-link">Sign In</a>
         </div>
       </div>
