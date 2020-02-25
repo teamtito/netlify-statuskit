@@ -49,10 +49,10 @@ Incidents are plain markdown files inside the `site/content/incidents` directory
 ### Creating new incidents
 
 Adding incidents to your status page is as simple as adding a new document to the incidents collection.
-Create a new incident using npm:
+Create a new incident:
 
 ```
-npm run new-incident
+gulp newIncident
 ```
 
 You'll be asked a series of questions about the incident, then Hugo will generate a new file pre-filled with your responses.
@@ -77,7 +77,7 @@ resolved = true
 When there is an update in your incident you can track activity by inserting a timestamp with the update. For example:
 
 ```md
-**Update**: We've identified the issue. {{< track "2016-11-22T14:34:00.000Z" >}}
+{{< track "2016-11-22T14:34:00.000Z" >}}We've identified the issue.
 ```
 
 
