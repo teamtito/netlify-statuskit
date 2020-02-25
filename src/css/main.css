@@ -33,6 +33,10 @@ a:active {
   justify-content: space-between;
 }
 
+.header a {
+  color: #202020;
+}
+
 .logo {
   position: relative;
   top: 4px;
@@ -142,13 +146,17 @@ a:active {
   margin-top: 0;
 }
 
+.incident .incident-title-date {
+  font-size: 1.3em;
+  margin-top: 0;
+}
+
 .incident {
   color: #202020;
 }
 
 .incident-title {
   text-transform: capitalize;
-  width: 75%;
 }
 
 @media (max-width: 725px) {
@@ -161,14 +169,15 @@ a:active {
 }
 
 .incident-description {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .separate {
-  text-align: right;
-  padding-bottom: 1em;
-  border-bottom: 2px solid #F7F7F8;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 3em;
+  padding: 0.5em 0;
 }
 
 .incident-status {
@@ -202,7 +211,6 @@ a:active {
   padding-bottom: 16px;
   font-size: 16px;
   font-weight: 500;
-  border-bottom: 2px solid #F7F7F8;
 }
 
 .see-more {
@@ -211,7 +219,6 @@ a:active {
   text-align: center;
   margin-top: 40px;
   padding-top: 24px;
-  border-top: 2px solid #F7F7F8;
 }
 
 .history {
@@ -289,7 +296,6 @@ a:active {
 .footer {
   margin-top: 104px;
   padding-top: 24px;
-  border-top: 2px solid #F7F7F8;
 }
 
 .footer p {
