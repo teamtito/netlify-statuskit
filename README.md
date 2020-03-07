@@ -1,4 +1,4 @@
-# Introduction
+# Introduction 
 
 Netlify StatusKit is a template to deploy your own Status pages on Netlify.
 
