@@ -7,3 +7,5 @@ resolved = false
 +++
 
 **Issue:** Heavy server loads are causing degraded peformance on some of our systems. This is happening roughly once an hour. We have taken steps to ease the load and are looking into ways of preventing this happening again.
+
+{{< track "2021-04-16T18:20:00.000Z" >}}We are still experiencing heavy load spikes and are looking at ways to minimise the impact.
