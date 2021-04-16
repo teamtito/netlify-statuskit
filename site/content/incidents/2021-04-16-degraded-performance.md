@@ -1,7 +1,7 @@
 +++
 title = "Degraded performance"
 date = 2021-04-16T15:31:51.000Z
-severity = "degraded"
+severity = "degraded-performance"
 affectedsystems = ["Dashboard", "Checkout", "API"]
 resolved = false
 +++
