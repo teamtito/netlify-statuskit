@@ -102,7 +102,7 @@ export const newIncident = (done) => {
     type: "list",
     name: "severity",
     message: "What is the severity of the incident?",
-    choices: ["under-maintenance", "degraded-performance", "partial-outage", "major-outage"]
+    choices: ["under-maintenance", "degraded", "partial-outage", "major-outage"]
   }, {
     type: "checkbox",
     name: "affected",
