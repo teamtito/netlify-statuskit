@@ -1,7 +1,7 @@
 [descriptions]
   ok = "Up and running"
   under-maintenance = "Under maintenance"
-  degraded-performance = "Degraded performance"
+  degraded-performance = "Degraded"
   partial-outage = "Partial outage"
   major-outage = "Major outage"
 
