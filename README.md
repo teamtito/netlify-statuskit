@@ -1,3 +1,46 @@
+# How to get things running locally
+
+1. Download the repo
+2. Make sure you have the following installed:
+  - npm
+  - npx
+  - gulp-cli
+3. `npm install`
+4. `npm start`
+5. You should now have the app running locally
+
+# How to add a new incident
+
+1. run `gulp newIncident`
+2. `What is the cause of the incident?` This will be the title, e.g. Database outage
+3. `What is the severity of the incident?` Choose from the list of options
+4. `What are the affected systems?` Select the affected systems
+5. `Add a terse description of the incident` This will be the description, e.g. Heavy server loads are causing degraded peformance on some of our systems.
+6. `Open the incident for editing?` Choose whether you want to edit the file before saving
+
+# Deploy the updates
+
+1. Commit and push the new file
+2. Netlify will automatically deploy the site
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Introduction 
 
 Netlify StatusKit is a template to deploy your own Status pages on Netlify.
