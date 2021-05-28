@@ -5,4 +5,4 @@ severity = "major-outage"
 affectedsystems = ["Checkout"]
 resolved = true
 +++
-Issue with the Sidekiq caused an outage. Currently investigating and incident report will follow.
+Currently investigating the server issue that caused the outage and an incident report will follow.
