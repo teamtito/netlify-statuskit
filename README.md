@@ -1,3 +1,7 @@
+# OBSOLETE
+
+We now provide our status page on Vito: https://vi.to/hubs/tito/pages/status-page. https://teamtito.com should redirect people there.
+
 # How to get things running locally
 
 1. Download the repo
